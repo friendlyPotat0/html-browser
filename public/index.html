@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="/images/favicon.ico" type="image/x-icon"> -->
+    <link rel="icon" href="/images/cube-box-fill-svgrepo-com.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Browser</title>
+</head>
+<body>
+    <div id="startScreen" style="display: none;">
+        <h1>Select your document</h1>
+        <ul id="folderList"></ul>
+    </div>
+    <div id="searchContainer" style="display: none;">
+        <h1>Search text in document</h1>
+        <input type="text" id="searchInput">
+        <ul id="searchResultsContainer"></ul>
+    </div>
+    <nav id="navigation" style="display: block;">
+        <button id="previousPageButton" class="mobile-button" style="display: none;">Previous</button>
+        <input type="number" id="pageInput" style="display: none;">
+        <button id="nextPageButton" class="mobile-button" style="display: none;">Next</button>
+        <button id="searchButton" class="mobile-button" style="display: none;">Search</button>
+    </nav>
+    <div id="fragmentContainer" style="display: none;"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
