@@ -9,7 +9,11 @@ Lets you browse multiple HTML files with the same ease as you would with any oth
 * Recursive scanning and parsing: Load any web project, no longer worry about relative paths!
 * Natural sorting: Your files are displayed according to their filename based on the natural sorting algorithm.
 
-### Usage
+### Install
+
+`git clone https://github.com/friendlyPotat0/html-browser.git`
+
+### Configuration
 
 Create a folder named *fragments* in the root directory, store there your web projects or HTML files in subfolders. Example:
 
