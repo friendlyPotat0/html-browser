@@ -4,6 +4,7 @@ Lets you browse multiple HTML files with the same ease as you would with any oth
 
 ### Features
 
+* Mobile supported/compatible.
 * Search engine: Find the text you need.
 * Recursive scanning and parsing: Load any web project, no longer worry about relative paths!
 * Natural sorting: Your files are displayed according to their filename based on the natural sorting algorithm.
@@ -39,8 +40,23 @@ Create a folder named *fragments* in the root directory, store there your web pr
 
 ### Run
 
-`node server.js`
+Run the server: `node server.js`
+
+Access the server from your browser of choice. URL: `localhost:3000`
+
+### Controls
+
+**Desktop**
+
+* `S`: Toggle search interface.
+* `M`: Toggle menu interface.
+* `L`: Go to the next page.
+* `H`: Go to the previous page.
+
+**Mobile**
+
+Tap to toggle menu interface.
 
 ### TODO
 
-Go to the *Projects* tab of this repo in GitHub.
+Information is on the *Projects* tab of this repo.
