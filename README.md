@@ -42,7 +42,7 @@ Create a folder named *fragments* in the root directory, store there your web pr
 
 Run the server: `node server.js`
 
-Access the server from your browser of choice. URL: `localhost:3000`
+Access the server from your web browser of choice. URL: `localhost:3000`
 
 ### Controls
 
