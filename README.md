@@ -15,10 +15,10 @@ Create a folder named *fragments* in the root directory, store there your web pr
 .
 ├── fragments
 │   ├── <name>
-│   │   ├── 1.xhtml
-│   │   ├── 2.xhtml
+│   │   ├── 1.html
+│   │   ├── 2.html
 │   │   ├── ...
-│   │   └── n.xhtml
+│   │   └── n.html
 │   └── <name>
 │       ├── images
 │       │   └── resource.jpg
